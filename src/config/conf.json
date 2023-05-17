@@ -1,0 +1,89 @@
+[
+  {
+    "name": "视频",
+    "list": [
+      {
+        "name": "blackvonTV",
+        "description": "免费观看视频",
+        "openType": "new-tab",
+        "url": "https://tv.blackvon.cn"
+      }
+    ]
+  },
+  {
+    "name": "图片",
+    "list": [
+      {
+        "name": "风景图片",
+        "description": "随机获取各种风景图片",
+        "openType": "router",
+        "router": "image-0",
+        "url": "https://api.vvhan.com/api/view",
+        "param": {
+          "type": "json"
+        }
+      },
+      {
+        "name": "动漫图片",
+        "description": "随机获取各种动漫图片",
+        "openType": "router",
+        "router": "image-1",
+        "url": "https://api.vvhan.com/api/acgimg",
+        "param": {
+          "type": "json"
+        }
+      },
+      {
+        "name": "竖版美图",
+        "description": "随机获取各种竖版美女图片",
+        "openType": "router",
+        "router": "image-2",
+        "url": "https://api.vvhan.com/api/mobil.girl",
+        "param": {
+          "type": "json"
+        }
+      },
+      {
+        "name": "横版美图",
+        "description": "随机获取各种横板美女图片",
+        "openType": "router",
+        "router": "image-3",
+        "url": "https://api.vvhan.com/api/girl",
+        "param": {
+          "type": "json"
+        }
+      },
+      {
+        "name": "头像",
+        "description": "随机获取各种头像",
+        "openType": "router",
+        "router": "image-4",
+        "url": "https://api.vvhan.com/api/avatar",
+        "param": {
+          "type": "json"
+        }
+      },
+      {
+        "name": "Bing壁纸",
+        "description": "随机获取必应(Bing)壁纸",
+        "openType": "router",
+        "router": "image-5",
+        "url": "https://api.vvhan.com/api/bing",
+        "param": {
+          "type": "json",
+          "rand": "sj"
+        }
+      },
+      {
+        "name": "淘宝买家秀",
+        "description": "随机获取淘宝买家秀图片",
+        "openType": "router",
+        "router": "image-6",
+        "url": "https://api.vvhan.com/api/tao",
+        "param": {
+          "type": "json"
+        }
+      }
+    ]
+  }
+]
