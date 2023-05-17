@@ -4,9 +4,33 @@
     "list": [
       {
         "name": "blackvonTV",
-        "description": "免费观看视频",
+        "description": "免费观看电影电视剧动漫",
         "openType": "new-tab",
         "url": "https://tv.blackvon.cn"
+      },
+      {
+        "name": "云播TV",
+        "description": "一个单纯不做作的电影站",
+        "openType": "new-tab",
+        "url": "https://www.yunbtv.net/"
+      },
+      {
+        "name": "6v电影网",
+        "description": "高清电影电视剧动漫下载网站",
+        "openType": "new-tab",
+        "url": "http://www.6vhao.tv/"
+      },
+      {
+        "name": "樱花动漫",
+        "description": "看动漫怎么能少了它呢",
+        "openType": "new-tab",
+        "url": "http://www.yinghuacd.com/"
+      },
+      {
+        "name": "Twitch",
+        "description": "海外直播平台",
+        "openType": "new-tab",
+        "url": "https://www.twitch.tv/"
       }
     ]
   },
@@ -19,6 +43,7 @@
         "openType": "router",
         "router": "image-0",
         "url": "https://api.vvhan.com/api/view",
+        "type": "GET",
         "param": {
           "type": "json"
         }
@@ -29,6 +54,7 @@
         "openType": "router",
         "router": "image-1",
         "url": "https://api.vvhan.com/api/acgimg",
+        "type": "GET",
         "param": {
           "type": "json"
         }
@@ -39,6 +65,7 @@
         "openType": "router",
         "router": "image-2",
         "url": "https://api.vvhan.com/api/mobil.girl",
+        "type": "GET",
         "param": {
           "type": "json"
         }
@@ -49,6 +76,7 @@
         "openType": "router",
         "router": "image-3",
         "url": "https://api.vvhan.com/api/girl",
+        "type": "GET",
         "param": {
           "type": "json"
         }
@@ -59,6 +87,7 @@
         "openType": "router",
         "router": "image-4",
         "url": "https://api.vvhan.com/api/avatar",
+        "type": "GET",
         "param": {
           "type": "json"
         }
@@ -69,6 +98,7 @@
         "openType": "router",
         "router": "image-5",
         "url": "https://api.vvhan.com/api/bing",
+        "type": "GET",
         "param": {
           "type": "json",
           "rand": "sj"
@@ -80,6 +110,7 @@
         "openType": "router",
         "router": "image-6",
         "url": "https://api.vvhan.com/api/tao",
+        "type": "GET",
         "param": {
           "type": "json"
         }

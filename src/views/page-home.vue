@@ -56,10 +56,11 @@
     :width="dialogWidth"
     :close-on-click-modal="false"
     :close-on-press-escape="false"
+    destroy-on-close
     v-model="dialogShow"
     :title="model.name"
   >
-    <randImg :model="model"/>
+    <randImg :model="model" />
   </el-dialog>
 </template>
   
@@ -107,7 +108,20 @@ export default {
     },
     chooseCard(item) {
       this.model = item;
-      this.dialogShow = true;
+      switch (this.model.openType) {
+        case "new-tab":
+          this.openNewTab(this.model.url);
+          break;
+        case "router":
+          this.dialogShow = true;
+          break;
+      }
+    },
+    openNewTab(url) {
+      var link = document.createElement("a");
+      link.setAttribute("target", "_blank");
+      link.setAttribute("href", url);
+      link.click();
     },
   },
 };

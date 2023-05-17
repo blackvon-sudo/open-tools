@@ -26,18 +26,7 @@ httpService.interceptors.request.use(
 // respone拦截器
 httpService.interceptors.response.use(
     response => {
-        // 统一处理状态
-        const res = response.data;
-        if (res.code != 200) { // 需自定义
-            // 返回异常
-            var err = {
-                status: res.code,
-                message: res.message
-            }
-            return Promise.reject(err);
-        } else {
-            return response.data;
-        }
+        return response.data;
     },
     // 错误处理
     error => {
