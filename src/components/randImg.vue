@@ -1,16 +1,17 @@
 <template>
-  <div class="image">
-    <el-image
-      v-loading="loading"
-      :src="srcList[index]"
-      :zoom-rate="1.2"
-      :preview-src-list="srcList"
-      :initial-index="index"
-      fit="fill"
-    />
-  </div>
-  <div class="btn-bottom">
-    <el-button type="primary" @click="getImage">再来一张</el-button>
+  <div v-loading="loading">
+    <div class="image">
+      <el-image
+        :src="srcList[index]"
+        :zoom-rate="1.2"
+        :preview-src-list="srcList"
+        :initial-index="index"
+        fit="fill"
+      />
+    </div>
+    <div class="btn-bottom">
+      <el-button type="primary" @click="getImage">再来一张</el-button>
+    </div>
   </div>
 </template>
 <script>
@@ -89,7 +90,7 @@ export default {
   margin-top: 10px;
   text-align: center;
 }
-.image{
-    text-align: center;
+.image {
+  text-align: center;
 }
 </style>
