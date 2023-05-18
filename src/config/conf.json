@@ -113,13 +113,199 @@
         "type": "GET",
         "param": {
           "type": "json"
-        },
-        {
-          "name": "图片压缩",
-          "description": "图片压缩是一款轻量级的图像压缩工具，图片压缩能够智能识别图像中的每一个元素，并对它们进行高效的压缩和优化。图片压缩还具有简单易用的界面，让你轻松地将大幅图像转换为小巧玲珑的图片。",
-          "openType": "new-tab",
-          "url": "https://tool.browser.qq.com/tupianyasuo.html"
         }
+      },
+     {
+          "name":" 图片压缩 ",
+          "description":" 图片压缩是一款轻量级的图像压缩工具，图片压缩能够智能识别图像中的每一个元素，并对它们进行高效的压缩和优化。图片压缩还具有简单易用的界面，让你轻松地将大幅图像转换为小巧玲珑的图片。 ",
+          "openType":"new-tab",
+          "url":"https://tool.browser.qq.com/category/img/tupianyasuo.html"
+      },
+      {
+          "name":" 人脸年龄选择 ",
+          "description":" 人脸年龄选择是一款人脸识别工具，是一种基于人脸图像的年龄的计算方法。它允许用户通过将其自己的人脸照片与一个已经存在的年龄数据进行比较来计算自己的年龄 ",
+          "openType":"new-tab",
+          "url":"https://tool.browser.qq.com/category/img/face_age_transformation.html"
+      },
+      {
+          "name":" 证件照生成 ",
+          "description":" 相片生成证件照工具是一款帮助用户快速生成高质量证件照的工具。证件照生成证件照工具拥有一个简单易用的界面，用户不需要具备专业的计算机技能就可以轻松上手。证件照生成证件照工具适用于各种场景和需求，例如结婚登记、签证办理、学校报名等。 ",
+          "openType":"new-tab",
+          "url":"https://tool.browser.qq.com/category/img/id_photo.html"
+      },
+      {
+          "name":" 提取文字 ",
+          "description":" 照片提取文字主要功能：这款产品是一款专业的照片提取文字软件，可以将任何类型的照片(包括证件照、风景照、人物照等)中的文本进行提取并保存到电脑中。它提供了多种提取模式和算法，如OCR、MTT、云输入等，可以准确识别照片中的文字。特点和优势：该产品采用了先进的技术和个性化的外观设计，使得照片提取文字更加快捷、方便、灵活 ",
+          "openType":"new-tab",
+          "url":"https://tool.browser.qq.com/category/img/ocr.html"
+      },
+      {
+          "name":" 图片转字符画 ",
+          "description":" 字符转画是大数据技术的视觉创意工具。它可以帮助用户将普通的图片转换为可编辑的字符画，用户可以通过拖入不同的元素来设计自己的字符画，也可以添加文本和表情符号来增加趣味性。产品采用了先进的加密技术和安全认证机制，确保了用户的隐私和安全。 ",
+          "openType":"new-tab",
+          "url":"https://tool.browser.qq.com/category/img/img_2_text.html"
+      },
+      {
+          "name":" 人脸性别转换 ",
+          "description":" 人脸性别转换技术是一种基于脸部识别工具，它使用最新的人工智能算法，快速准确地进行分析和比较进行图片的性别转换，这些信息可以帮助他们更好地了解自我，发掘自身的潜力，增强自信心和勇气 ",
+          "openType":"new-tab",
+          "url":"https://tool.browser.qq.com/category/img/face_gender_transformation.html"
+      },
+      {
+          "name":" 增加图片大小 ",
+          "description":" 增加图片大小工具是一款免费的的图片编辑工具，可以帮助用户修改图片的大小。这款工具采用了当前最先进的技术和设计理念，拥有人性化的功能和操作简单易用的界面，可以大大提升用户体验。增加图片大小工具是一款功能强大、易于使用的图片编辑工具，可以帮助用户快速地修改和制作自己的所需图片 ",
+          "openType":"new-tab",
+          "url":"https://tool.browser.qq.com/category/img/img_enlarge.html"
+      },
+      {
+          "name":" 图片日漫滤镜 ",
+          "description":" 图片日漫滤镜 主要功能：这款产品是一款多功能的照片修饰软件，集美化、裁剪、旋转、虚化等多种功能于一身。它可以修改照片的曝光、对比度、色彩、锐度等参数，还可以添加文字、马赛克、相框等特殊效果。通过该产品的处理，可以让照片变得更加生动、有趣，展现出不同的风格和个人喜好。 ",
+          "openType":"new-tab",
+          "url":"https://tool.browser.qq.com/category/img/img_anime_filter.html"
+      },
+      {
+          "name":" 头像二次元 ",
+          "description":" 头像二次元的 主要功能：这款产品是一款精美的头像制作软件，提供了许多可爱的动漫形象、表情和字体供用户选择。它可以根据用户的喜好和风格来打造出符合自己个性需求的头像，让用户的昵称和资料更加有个性。此外，该产品还提供了一些实用的功能，如更换皮肤、编辑备注、导出PDF等，在使用过程中可以给用户提供更多的便利。该产品采用了先进的技术和个性化的外观设计，使得头像制作更加快捷、方便、灵活。 ",
+          "openType":"new-tab",
+          "url":"https://tool.browser.qq.com/category/img/img_face_anime.html"
+      },
+      {
+          "name":" 美化你的头像 ",
+          "description":" 美化头像这款产品是一款专业的头像制作软件，拥有丰富的主题、样式、特效和素材可供选择。它可以通过简单的操作来对头像进行磨皮、美白、瘦脸、眼睛放大等基础调整，还可以添加文字、形状、颜色等元素来增加头像的趣味性和个性化。此外，该产品还提供了多种美颜模式，可以调节背景的亮度、色温、的风格等，让用户的美容体验更加舒适和自然。美化头像采用了先进的技术和个性化的外观设计，使得头像制作更加快捷、方便、灵活。同时，它还提供了丰富的效果和素材，满足用户的各种需求。 ",
+          "openType":"new-tab",
+          "url":"https://tool.browser.qq.com/category/img/img_module_face_stylize.html"
+      },
+      {
+          "name":" 油画滤镜 ",
+          "description":" 油画滤镜这款产品是一款多功能的照片修饰软件，集美化、裁剪、旋转、虚化等多种功能于一身。它可以修改照片的曝光、对比度、色彩、锐度等参数，还可以添加文字、马赛克、相框等特殊效果。通过该产品的处理，可以让照片变得更加生动、有趣，展现出不同的风格和个人喜好。油画滤镜采用了先进的技术和个性化的外观设计，使得图像处理更加快捷、方便、灵活。 ",
+          "openType":"new-tab",
+          "url":"https://tool.browser.qq.com/category/img/img_painting_filter.html"
+      },
+      {
+          "name":" 人像分割 ",
+          "description":" 人像分割 主要功能：这款产品是一款专业的人像处理软件，可以帮助用户快速地对人物图像进行分割、修补、瘦身等操作。它提供了多种工具和选项，如矩形、圆形、三角形等，并支持手动输入或自动匹配脸型等功能。通过该产品的处理，可以让人物图像更加清晰、细腻，同时还能够去除背景中的无关元素，突出人物主体。特点和优势：该产品采用了先进的技术和个性化的外观设计，使得图像处理更加快捷、方便、灵活 ",
+          "openType":"new-tab",
+          "url":"https://tool.browser.qq.com/category/img/img_human_split.html"
+      },
+      {
+          "name":" 文字抹除 ",
+          "description":" 文字抹除 主要功能：这款产品是一款神奇的文字删除软件，可以在不破坏文本内容的情况下轻松将文字从文档中抹去。它提供了多种模式和选项，如彻底删除、涂抹、消退等，可以根据自己的需要进行选择和设置。特点和优势：该产品采用了先进的技术和个性化的外观设计，使得文字删除更加快捷、方便、灵活 ",
+          "openType":"new-tab",
+          "url":"https://tool.browser.qq.com/category/img/img_text_removal.html"
+      },
+      {
+          "name":" 图片美化 ",
+          "description":" 这款产品是一款免费的图像修饰软件，可以帮助您修改和润色您的照片，这款图片美化工具不仅功能强大，而且操作简单，适合所有水平的用户。如果您想对照片进行简单的修改和提高质量，那么它是最好的选择。特色与优势：该产品简单易用，人人都能上手。使您在几分钟内就能完成一张美轮美奂的照片 ",
+          "openType":"new-tab",
+          "url":"https://tool.browser.qq.com/category/img/img_pic_beauty.html"
+      },
+      {
+          "name":" 文档图片扭曲恢复 ",
+          "description":" 文档图像修复 主要功能：这款产品是一款免费的电子表格处理软件，可以轻松地修正由document.dot所导致的文档图像问题，例如模糊、色斑、裁剪等问题。 它采用最新的光学技术和高级渲染器，可以提供清晰、细腻的图像。此外，它还拥有自动锐化、边缘增强和防抖动等功能，可以在最大层面上保留图像的细节和原有的风味。特色与优势：这款产品易于使用，非常实用。 ",
+          "openType":"new-tab",
+          "url":"https://tool.browser.qq.com/category/img/doc_wrap.html"
+      },
+      {
+          "name":" 图片转PPT ",
+          "description":" 图片转ppt产品是一款在线的图片转换工具，可以将各种类型的图片(包括高清图片、JPG、GIF等)转换为PDF、Word、Excel等多种格式的幻灯片。用户可以使用该工具将图片直接插入到幻灯片或打印出来，从而实现即插即用。图片转 PPT是一款灵活且实用的图片转换工具，可以方便地将图片插入到幻灯片或打印出来。其相对于专业级工具可能稍显不足，但对于日常办公和学习来说已经完全足够 ",
+          "openType":"new-tab",
+          "url":"https://tool.browser.qq.com/category/img/img_2_ppt.html"
+      },
+      {
+          "name":" 图片修复 ",
+          "description":" 图片修复工具是一款免费的在线图片编辑工具，可让用户轻松修改照片的曝光、对比度和色调，使其更加清晰明亮。可以简化复杂的照片编辑过程，节省大量时间，可使用户快速修复老化和损坏的照片 ",
+          "openType":"new-tab",
+          "url":"https://tool.browser.qq.com/category/img/img_fix.html"
+      },
+      {
+          "name":" 图片去摩尔纹 ",
+          "description":" 图片去摩尔纹产品是一款在线免费的工具，它可以通过拍照的方式获取图片的原始数据，然后利用机器学习算法对图像进行处理，从而去除摩尔纹并提高图像的质量。该产品的处理速度较快，且操作简单，适用于各种类型的照片。同时，该产品还具有较好的隐私保护功能，可以有效防止用户的个人信息泄露 ",
+          "openType":"new-tab",
+          "url":"https://tool.browser.qq.com/category/img/image_enhance.html"
+      },
+      {
+          "name":" 多人卡通画 ",
+          "description":" 图片生成卡通画，用户可以通过该软件将自己喜欢的图片或视频添加到卡通风的人物中，从而创造出独特的卡通风人物形象。图片生成卡通画是一款非常好玩且实用的图像处理软件。对于想要创造独特而有趣的卡通风人物形象的的用户来说，照片生成通画是一个不可或缺的好助手 ",
+          "openType":"new-tab",
+          "url":"https://tool.browser.qq.com/category/img/img_ai_cartoon.html"
+      },
+      {
+          "name":" 迪士尼童话脸 ",
+          "description":" 迪士尼童话脸是一款基于AI技术和图像处理的图像处理工具。迪士尼童话脸可以帮助用户通过上传自己或其他人的照片，将其转换为迪士尼童话故事中的经典角色形象，非常适合那些喜欢迪士尼童话故事的玩家们。 ",
+          "openType":"new-tab",
+          "url":"https://tool.browser.qq.com/category/img/img_ai_face.html"
+      },
+      {
+          "name":" 乔丹风格化 ",
+          "description":" 乔丹风格化是一款基于人工智能和图像处理的图像处理软件。该产品可以帮助用户通过上传自己或其他人的照片，将其转换为乔丹篮球运动员的形象。乔丹风格化是一款非常好用的图像处理软件。它可以帮助用户轻松地将照片转换为乔丹篮球运动员的形象，非常适合那些喜欢篮球和乔丹的玩家们 ",
+          "openType":"new-tab",
+          "url":"https://tool.browser.qq.com/category/img/img_ai_jordanstyle.html"
+      },
+      {
+          "name":" 国漫水彩风 ",
+          "description":" 照片国漫水彩风是一款中国漫画风格工具。它以中国传统的水彩画为灵感来源，融合了现代数字技术，为用户提供了一种全新的视觉体验工具。除了可以自由地自己创作外，用户还可以与其他用户分享自己的作品，与志同道合的人一起交流和进步。照片国漫水彩风是一款有趣、新颖的漫画风格工具，非常值得一玩 ",
+          "openType":"new-tab",
+          "url":"https://tool.browser.qq.com/category/img/img_ai_watercolor.html"
+      },
+      {
+          "name":" GIF分解 ",
+          "description":" GIF分解是一款免费的、功能丰富的图片处理工具。GIF分解是一款功能强大的视频处理软件，支持将GIF图片进行多种格式的转换，如MP4PNGJPGBMP等，还可以对GIF图片中的文字进行提取和编辑。此外，GIF分解还提供了许多实用的工具和技术，例如GIF动画制作，GIF转PDF等功能，可以帮助用户快速轻松地制作出各种精美的GIF动画和视频文件。 ",
+          "openType":"new-tab",
+          "url":"https://tool.browser.qq.com/category/img/gifsplitter.html"
+      },
+      {
+          "name":" 二维码生成 ",
+          "description":" 二维码生成工具产品可以帮助用户轻松地创建和管理各种二维码。它提供了多种二维码模板，包括一维码、二维码、QR码等，同时还支持将已有的二维码转换为新的二维码。此外，该产品还提供了一系列的辅助功能，如二维码验证、条码转换、批量打印等，帮助用户更好地管理二维码资源。该产品采用了先进的计算机技术和独特的算法，使得二维码生成过程快速、准确、可靠 ",
+          "openType":"new-tab",
+          "url":"https://tool.browser.qq.com/category/img/qrcode.html"
+      },
+      {
+          "name":" 九宫格切图 ",
+          "description":" 九宫格切图是一款在线切图工具，可以帮助用户将各种类型的图片切成九宫格形状。这款产品操作简单方便，支持多种切割方法和效果，同时还具备安全性高的特点，可以保护用户的个人信息不受泄露。九宫格切图产品的操作流程很简单，只需要选择要切的图片，然后点击“上传图片”，再点击\"切图\"按钮即可。用户也可以根据自己的喜好和需要进行调整和更改。九宫格切图是一款非常实用的在线切图工具，可以帮助用户快速将各种类型图片切成九宫格形状，并且具有安全可靠的特点，适合用于海报、宣传单、网站页面等场所 ",
+          "openType":"new-tab",
+          "url":"https://tool.browser.qq.com/category/img/img9grid.html"
+      },
+      {
+          "name":" 图片格式转换 ",
+          "description":" 图片装换是一款在线图片转换工具，可以帮助用户将图片转换为jpg、png、webp、bmp格式，这款产品操作简单方便，支持多种转换方法和效果，同时也具备了良好的兼容性和可靠性，适用于各种设备。图片转换产品的操作流程很简单，只需要选择要转换的图片，然后点击“转换”按钮即可。用户也可以根据自己的需求和喜好进行修改和调整 ",
+          "openType":"new-tab",
+          "url":"https://tool.browser.qq.com/category/img/imgconvert.html"
+      },
+      {
+          "name":" GIF合成 ",
+          "description":" GIF合成器是一款多媒体制作工具，可以帮助用户将图片通过简单的步骤合成为一张高质量的GIF图。GIF合成器拥有简单易用的界面，用户不需要具备专业的计算机技能就可以轻松上手。 ",
+          "openType":"new-tab",
+          "url":"https://tool.browser.qq.com/category/img/gifcreate.html"
+      },
+      {
+          "name":" 二维码美化 ",
+          "description":" 二维码美化是一款由腾讯公司开发的应用程序，旨在使用户的二维码图片更加美观。二维码美化提供了简单易用的编辑工具和滤镜，让用户可以随心所欲地调整二维码的大小、颜色、字体和背景等参数，以满足不同用户的需求。 ",
+          "openType":"new-tab",
+          "url":"https://tool.browser.qq.com/category/img/prettify_qrcode.html"
+      },
+      {
+          "name":" 二维码名片 ",
+          "description":" 二维码名片是一款的应用程序，旨在使用户的二维码图片更加美观。它提供了简单易用的编辑工具和滤镜，让用户可以随心所欲地调整二维码的大小、颜色、字体和背景等参数，它可以让用户的二维码图片更加美观，以满足不同用户的需求 ",
+          "openType":"new-tab",
+          "url":"https://tool.browser.qq.com/category/img/visit_card.html"
+      },
+      {
+          "name":" 图片黑白化 ",
+          "description":" 图片黑白化功能可以将图片转换为黑白色。用户可以使用此功能将彩色图片转换为黑白色，以便在社交媒体上发布图片或文档。此功能适用于多种图像格式，包括JPG、PNG、GIF等。当用户打开图片 黑白化功能时，该应用会提示用户选择要转换的图片格式。 ",
+          "openType":"new-tab",
+          "url":"https://tool.browser.qq.com/category/img/img_fade.html"
+      },
+      {
+          "name":" 图片像素化 ",
+          "description":" 图片像素化工具是一款免费的、开源的工具，可以将图像转换为像素格式。在使用图片像素化工具时，用户首先需要选择一张需要转换成像素格式的图像文件。然后，工具会提示用户启用像素化选项，工具会自动将图像转换为像素格式，图片像素化是一款易于使用、功能强大的图像转换为像素格式工具，可以帮助用户快速方便地将图像转换为像素格式，便于在更多的环境中应用 ",
+          "openType":"new-tab",
+          "url":"https://tool.browser.qq.com/category/img/img_pixel.html"
+      },
+      {
+          "name":" 图片隐写 ",
+          "description":" 图片隐写是一款图片隐写工具，图片隐写工具是一款功能强大、实用美观的图片隐写工具，可以帮助用户将自己的签名隐藏起来，不影响图片的外观和正常使用，同时也保护了用户的隐私和安全 ",
+          "openType":"new-tab",
+          "url":"https://tool.browser.qq.com/category/img/image_secret_msg.html"
       }
     ]
   }
