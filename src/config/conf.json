@@ -113,6 +113,12 @@
         "type": "GET",
         "param": {
           "type": "json"
+        },
+        {
+          "name": "图片压缩",
+          "description": "图片压缩是一款轻量级的图像压缩工具，图片压缩能够智能识别图像中的每一个元素，并对它们进行高效的压缩和优化。图片压缩还具有简单易用的界面，让你轻松地将大幅图像转换为小巧玲珑的图片。",
+          "openType": "new-tab",
+          "url": "https://tool.browser.qq.com/tupianyasuo.html"
         }
       }
     ]
