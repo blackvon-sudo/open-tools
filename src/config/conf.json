@@ -35,12 +35,30 @@
     ]
   },
   {
-    "name": "图片",
+    "name": "博客",
+    "list": [
+      {
+        "name": "blackvonCode",
+        "description": "程序技术分享平台",
+        "openType": "new-tab",
+        "url": "https://www.blackvon.cn"
+      },
+      {
+        "name": "阮一峰的网络日志",
+        "description": "这里记录每周值得分享的科技内容",
+        "openType": "new-tab",
+        "url": "https://www.ruanyifeng.com/blog/"
+      }
+    ]
+  },
+  {
+    "name": "随机内容",
     "list": [
       {
         "name": "风景图片",
         "description": "随机获取各种风景图片",
         "openType": "router",
+        "randType":"image",
         "router": "image-0",
         "url": "https://api.vvhan.com/api/view",
         "type": "GET",
@@ -52,6 +70,7 @@
         "name": "动漫图片",
         "description": "随机获取各种动漫图片",
         "openType": "router",
+        "randType":"image",
         "router": "image-1",
         "url": "https://api.vvhan.com/api/acgimg",
         "type": "GET",
@@ -63,6 +82,7 @@
         "name": "竖版美图",
         "description": "随机获取各种竖版美女图片",
         "openType": "router",
+        "randType":"image",
         "router": "image-2",
         "url": "https://api.vvhan.com/api/mobil.girl",
         "type": "GET",
@@ -74,6 +94,7 @@
         "name": "横版美图",
         "description": "随机获取各种横板美女图片",
         "openType": "router",
+        "randType":"image",
         "router": "image-3",
         "url": "https://api.vvhan.com/api/girl",
         "type": "GET",
@@ -85,6 +106,7 @@
         "name": "头像",
         "description": "随机获取各种头像",
         "openType": "router",
+        "randType":"image",
         "router": "image-4",
         "url": "https://api.vvhan.com/api/avatar",
         "type": "GET",
@@ -96,6 +118,7 @@
         "name": "Bing壁纸",
         "description": "随机获取必应(Bing)壁纸",
         "openType": "router",
+        "randType":"image",
         "router": "image-5",
         "url": "https://api.vvhan.com/api/bing",
         "type": "GET",
@@ -108,6 +131,7 @@
         "name": "淘宝买家秀",
         "description": "随机获取淘宝买家秀图片",
         "openType": "router",
+        "randType":"image",
         "router": "image-6",
         "url": "https://api.vvhan.com/api/tao",
         "type": "GET",
@@ -115,6 +139,84 @@
           "type": "json"
         }
       },
+      {
+        "name": "一言",
+        "description": "随机获取一句喜欢的句子",
+        "openType": "router",
+        "randType":"text",
+        "router": "text-0",
+        "url": "https://api.vvhan.com/api/ian",
+        "type": "GET",
+        "param": {
+          "type": "json"
+        }
+      },
+      {
+        "name": "笑话",
+        "description": "随机获取一段笑话",
+        "openType": "router",
+        "randType":"text",
+        "router": "text-1",
+        "url": "https://api.vvhan.com/api/joke",
+        "type": "GET",
+        "param": {
+          "type": "json"
+        }
+      },
+      {
+        "name": "情话",
+        "description": "随机获取一句撩人的情话",
+        "openType": "router",
+        "randType":"text",
+        "router": "text-2",
+        "url": "https://api.vvhan.com/api/love",
+        "type": "GET",
+        "param": {
+          "type": "json"
+        }
+      },
+      {
+        "name": "骚话",
+        "description": "随机获取一句骚骚的骚话",
+        "openType": "router",
+        "randType":"text",
+        "router": "text-3",
+        "url": "https://api.vvhan.com/api/sao",
+        "type": "GET",
+        "param": {
+          "type": "json"
+        }
+      },
+      {
+        "name": "英文",
+        "description": "随机获取一句励志的英文",
+        "openType": "router",
+        "randType":"text",
+        "router": "text-4",
+        "url": "https://api.vvhan.com/api/en",
+        "type": "GET",
+        "param": {
+          "type": "sj"
+        }
+      },
+      {
+        "name": "60秒读懂世界",
+        "description": "获取今日世界发生的事情",
+        "openType": "router",
+        "randType":"text",
+        "router": "text-5",
+        "url": "https://api.vvhan.com/api/60s",
+        "type": "GET",
+        "param": {
+          "type": "json",
+          "rand": "sj"
+        }
+      }
+    ]
+  },
+  {
+    "name": "图片工具",
+    "list": [
       {
         "name": " 图片压缩 ",
         "description": " 图片压缩是一款轻量级的图像压缩工具，图片压缩能够智能识别图像中的每一个元素，并对它们进行高效的压缩和优化。图片压缩还具有简单易用的界面，让你轻松地将大幅图像转换为小巧玲珑的图片。 ",

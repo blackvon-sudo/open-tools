@@ -7,11 +7,7 @@
             <div class="box">
               <el-menu mode="horizontal" :ellipsis="false" :router="true">
                 <el-menu-item disabled class="no-click-style">
-                  <img
-                    src="../assets/logo.png"
-                    style="height: 28px"
-                    alt="OpenTools"
-                  />
+                  <img src="../assets/logo.png" style="height: 28px" alt="OpenTools" />
                   <span class="logo">
                     <a href="/">OpenTools</a>
                   </span>
@@ -25,9 +21,7 @@
                       style="min-width: 150px"
                       @change="querySearch"
                     ></el-input>
-                    <el-button type="primary" @click="querySearch"
-                      >搜索</el-button
-                    >
+                    <el-button type="primary" @click="querySearch">搜索</el-button>
                   </el-space>
                 </el-menu-item>
               </el-menu>
@@ -38,27 +32,18 @@
     </el-row>
     <div class="main">
       <el-row>
-        <el-col
-          v-for="(item, index) in list"
-          :key="index"
-          :span="20"
-          :offset="2"
-        >
+        <el-col v-for="(item, index) in list" :key="index" :span="20" :offset="2">
           <el-row>
             <el-col :span="24">
               <h4>{{ item.name }}</h4>
             </el-col>
           </el-row>
           <el-row :gutter="12">
-            <el-col
-              v-for="(itemChild, indexChild) in item.list"
-              :key="indexChild"
-              :span="span"
-            >
+            <el-col v-for="(itemChild, indexChild) in item.list" :key="indexChild" :span="span">
               <el-card shadow="always" @click="chooseCard(itemChild)">
                 <p class="title">{{ itemChild.name }}</p>
                 <div class="content">
-                  <p class="description">{{ itemChild.description }}</p>
+                  <p class="description" :title="itemChild.description">{{ itemChild.description }}</p>
                 </div>
               </el-card>
             </el-col>
@@ -75,8 +60,10 @@
     v-model="router.dialogShow"
     :fullscreen="router.isFullScreen"
     :title="model.name"
+    top="5vh"
   >
-    <randImg :model="model" />
+    <randImg v-if="model.randType=='image'" :model="model" />
+    <randText v-if="model.randType=='text'" :model="model" />
   </el-dialog>
   <el-dialog
     :width="iframe.dialogWidth"
@@ -86,6 +73,7 @@
     v-model="iframe.dialogShow"
     :fullscreen="iframe.isFullScreen"
     :style="'height:' + iframe.dialogHeight"
+    top="5vh"
   >
     <iframe :src="model.url" frameborder="0"></iframe>
   </el-dialog>
@@ -94,6 +82,7 @@
   <script>
 //import { ElMessage, ElMessageBox } from "element-plus";
 import randImg from "@/components/randImg";
+import randText from "@/components/randText";
 import { isMobile } from "@/utils/common";
 import conf from "@/config/conf.json";
 
@@ -101,10 +90,11 @@ export default {
   name: "page-home",
   components: {
     randImg,
+    randText,
   },
   data() {
     return {
-      span: isMobile() ? 24 : 4,
+      span: isMobile() ? 24 : 6,
       searchKey: "",
       list: conf,
       listAll: conf,
@@ -193,6 +183,10 @@ export default {
 .main .el-card {
   margin-bottom: 10px;
   height: 95px;
+}
+.main .el-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .main .el-card__body .content {
   overflow: hidden;

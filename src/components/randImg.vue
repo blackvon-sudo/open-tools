@@ -9,7 +9,7 @@
       fit="fill"
     />
   </div>
-  <div>
+  <div class="btn-bottom">
     <el-button type="primary" @click="getImage">再来一张</el-button>
   </div>
 </template>
@@ -85,4 +85,8 @@ export default {
 };
 </script>
 <style scoped>
+.btn-bottom {
+  margin-top: 10px;
+  text-align: center;
+}
 </style>
