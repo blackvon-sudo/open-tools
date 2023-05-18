@@ -7,7 +7,7 @@
             <div class="box">
               <el-menu mode="horizontal" :ellipsis="false" :router="true">
                 <el-menu-item disabled class="no-click-style">
-                  <img src="../assets/logo.png" style="height: 28px" alt="OpenTools" />
+                  <img src="../assets/logo.png" class="logo-img" alt="OpenTools" />
                   <span class="logo">
                     <a href="/">OpenTools</a>
                   </span>
@@ -161,6 +161,11 @@ export default {
   border-bottom: none !important;
   opacity: 1 !important;
   cursor: pointer !important;
+}
+.logo-img {
+  height: 28px;
+  margin-top: -5px;
+  margin-right: 5px;
 }
 .logo {
   font-size: 16px;

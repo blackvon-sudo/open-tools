@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="image">
     <el-image
       v-loading="loading"
       :src="srcList[index]"
@@ -88,5 +88,8 @@ export default {
 .btn-bottom {
   margin-top: 10px;
   text-align: center;
+}
+.image{
+    text-align: center;
 }
 </style>
