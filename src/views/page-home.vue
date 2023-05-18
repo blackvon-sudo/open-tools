@@ -7,7 +7,11 @@
             <div class="box">
               <el-menu mode="horizontal" :ellipsis="false" :router="true">
                 <el-menu-item disabled class="no-click-style">
-                  <img src="../assets/logo.png" style="height: 28px" alt="OpenTools" />
+                  <img
+                    src="../assets/logo.png"
+                    style="height: 28px"
+                    alt="OpenTools"
+                  />
                   <span class="logo">
                     <a href="/">OpenTools</a>
                   </span>
@@ -21,7 +25,9 @@
                       style="min-width: 150px"
                       @change="querySearch"
                     ></el-input>
-                    <el-button type="primary" @click="querySearch">搜索</el-button>
+                    <el-button type="primary" @click="querySearch"
+                      >搜索</el-button
+                    >
                   </el-space>
                 </el-menu-item>
               </el-menu>
@@ -32,14 +38,23 @@
     </el-row>
     <div class="main">
       <el-row>
-        <el-col v-for="(item, index) in list" :key="index" :span="20" :offset="2">
+        <el-col
+          v-for="(item, index) in list"
+          :key="index"
+          :span="20"
+          :offset="2"
+        >
           <el-row>
             <el-col :span="24">
               <h4>{{ item.name }}</h4>
             </el-col>
           </el-row>
           <el-row :gutter="12">
-            <el-col v-for="(itemChild, indexChild) in item.list" :key="indexChild" :span="span">
+            <el-col
+              v-for="(itemChild, indexChild) in item.list"
+              :key="indexChild"
+              :span="span"
+            >
               <el-card shadow="always" @click="chooseCard(itemChild)">
                 <p class="title">{{ itemChild.name }}</p>
                 <div class="content">
@@ -53,14 +68,26 @@
     </div>
   </div>
   <el-dialog
-    :width="dialogWidth"
+    :width="router.dialogWidth"
     :close-on-click-modal="false"
     :close-on-press-escape="false"
     destroy-on-close
-    v-model="dialogShow"
+    v-model="router.dialogShow"
+    :fullscreen="router.isFullScreen"
     :title="model.name"
   >
     <randImg :model="model" />
+  </el-dialog>
+  <el-dialog
+    :width="iframe.dialogWidth"
+    :close-on-click-modal="false"
+    :close-on-press-escape="false"
+    destroy-on-close
+    v-model="iframe.dialogShow"
+    :fullscreen="iframe.isFullScreen"
+    :style="'height:' + iframe.dialogHeight"
+  >
+    <iframe :src="model.url" frameborder="0"></iframe>
   </el-dialog>
 </template>
   
@@ -77,13 +104,22 @@ export default {
   },
   data() {
     return {
-      dialogShow: false,
-      dialogWidth: isMobile() ? "90%" : "500px",
       span: isMobile() ? 24 : 4,
       searchKey: "",
       list: conf,
       listAll: conf,
       model: {},
+      router: {
+        dialogShow: false,
+        dialogWidth: isMobile() ? "90%" : "500px",
+        isFullScreen: isMobile() ? true : false,
+      },
+      iframe: {
+        dialogShow: false,
+        dialogWidth: isMobile() ? "90%" : "1600px",
+        dialogHeight: isMobile() ? "100%" : "800px",
+        isFullScreen: isMobile() ? true : false,
+      },
     };
   },
   mounted() {},
@@ -112,8 +148,11 @@ export default {
         case "new-tab":
           this.openNewTab(this.model.url);
           break;
+        case "iframe":
+          this.iframe.dialogShow = true;
+          break;
         case "router":
-          this.dialogShow = true;
+          this.router.dialogShow = true;
           break;
       }
     },
@@ -176,6 +215,17 @@ export default {
   font-size: 14px;
   color: #797d79;
   margin-top: 5px;
+}
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.el-dialog__headerbtn {
+  z-index: 99999;
 }
 /* 滚动条整体样式 */
 ::-webkit-scrollbar {
