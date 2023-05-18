@@ -306,6 +306,132 @@
         "description": " 图片隐写是一款图片隐写工具，图片隐写工具是一款功能强大、实用美观的图片隐写工具，可以帮助用户将自己的签名隐藏起来，不影响图片的外观和正常使用，同时也保护了用户的隐私和安全 ",
         "openType": "iframe",
         "url": "https://tool.browser.qq.com/image_secret_msg.html"
+      },
+      {
+        "name": "图片转latex",
+        "description": "数学公式识别，图片转latex",
+        "openType": "iframe",
+        "url": "https://tool.lu/latexocr/"
+      },
+      {
+        "name": "拼图",
+        "description": "字幕拼图",
+        "openType": "iframe",
+        "url": "https://tool.lu/stitch/"
+      },
+      {
+        "name": "gif裁剪",
+        "description": "裁剪gif图片",
+        "openType": "iframe",
+        "url": "https://tool.lu/gifcropper/"
+      },
+      {
+        "name": "gif缩放",
+        "description": "缩放gif图片",
+        "openType": "iframe",
+        "url": "https://tool.lu/gifscaler/"
+      },
+      {
+        "name": "gif分割",
+        "description": "gif分割为多张图片",
+        "openType": "iframe",
+        "url": "https://tool.lu/gifsplitter/"
+      },
+      {
+        "name": "节日头像制作",
+        "description": "节日头像制作，国庆节、圣诞节、春节头像",
+        "openType": "iframe",
+        "url": "https://tool.lu/avatar/"
+      },
+      {
+        "name": "favicon在线制作",
+        "description": "icon在线制作",
+        "openType": "iframe",
+        "url": "https://tool.lu/favicon/"
+      },
+      {
+        "name": "一键抠图",
+        "description": "一键去除照片背景、证件照换背景",
+        "openType": "iframe",
+        "url": "https://tool.lu/cutout/"
+      },
+      {
+        "name": "图片base64编码",
+        "description": "图片base64编码",
+        "openType": "iframe",
+        "url": "https://tool.lu/base64image/"
+      },
+      {
+        "name": "占位图片",
+        "description": "占位图片、前端占位图片",
+        "openType": "iframe",
+        "url": "https://tool.lu/imageholder/"
+      },
+      {
+        "name": "email图片生成",
+        "description": "email图片生成",
+        "openType": "iframe",
+        "url": "https://tool.lu/emailimage/"
+      },
+      {
+        "name": "图片压缩",
+        "description": "png压缩,jpg压缩,gif压缩,压缩照片",
+        "openType": "iframe",
+        "url": "https://tool.lu/tinyimage/"
+      },
+      {
+        "name": "二维码生成",
+        "description": "在线生成、识别二维码、艺术二维码",
+        "openType": "iframe",
+        "url": "https://tool.lu/qrcode/"
+      },
+      {
+        "name": "app icon制作",
+        "description": "app icon制作",
+        "openType": "iframe",
+        "url": "https://tool.lu/appicon/"
+      },
+      {
+        "name": "图片文字识别",
+        "description": "图片转文字、OCR",
+        "openType": "iframe",
+        "url": "https://tool.lu/ocr/"
+      },
+      {
+        "name": "条形码生成",
+        "description": "条形码",
+        "openType": "iframe",
+        "url": "https://tool.lu/barcode/"
+      },
+      {
+        "name": "图片格式转换",
+        "description": "支持webp,jpg,png,bmp等格式",
+        "openType": "iframe",
+        "url": "https://tool.lu/imageconverter/"
+      },
+      {
+        "name": "视频转gif",
+        "description": "mp4、webm视频转gif",
+        "openType": "iframe",
+        "url": "https://tool.lu/video2gif/"
+      },
+      {
+        "name": "证件照裁剪",
+        "description": "一寸、两寸照裁剪",
+        "openType": "iframe",
+        "url": "https://tool.lu/imagecropper/"
+      },
+      {
+        "name": "图片规格",
+        "description": "证件照规格要求",
+        "openType": "iframe",
+        "url": "https://tool.lu/imagespec/"
+      },
+      {
+        "name": "切图工具",
+        "description": "朋友圈九宫格切图",
+        "openType": "iframe",
+        "url": "https://tool.lu/imageslicer/"
       }
     ]
   },
@@ -680,6 +806,102 @@
         "description": " 文字隐写工具是一款免费的工具，可以隐藏计算机上运行的不同于系统默认设置的文本内容。隐写的文本内容包括但不限于汉字、英文字母、数字、特殊符号等等。文字隐写工具是一款功能强大、实用美观的文字隐写工具，可以帮助用户将自己的文本内容隐藏起来，不会影响系统的外观和正常使用，同时也保护了用户的隐私和安全 ",
         "openType": "iframe",
         "url": "https://tool.browser.qq.com/text_secret_msg.html"
+      },
+      {
+        "name": "智能文案撰稿",
+        "description": "编写小红书、微博、朋友圈、热点评论等文案",
+        "openType": "iframe",
+        "url": "https://tool.lu/writer/"
+      },
+      {
+        "name": "asciidoc编辑器",
+        "description": "asciidoc编辑器",
+        "openType": "iframe",
+        "url": "https://tool.lu/asciidoc/"
+      },
+      {
+        "name": "markdown编辑器",
+        "description": "markdown编辑器",
+        "openType": "iframe",
+        "url": "https://tool.lu/markdown/"
+      },
+      {
+        "name": "文字加密解密",
+        "description": "url,base64,md5加密解密",
+        "openType": "iframe",
+        "url": "https://tool.lu/encdec/"
+      },
+      {
+        "name": "hex转字符串",
+        "description": "hex和字符串互转",
+        "openType": "iframe",
+        "url": "https://tool.lu/hexstr/"
+      },
+      {
+        "name": "汉字转拼音五笔",
+        "description": "汉字转五笔、拼音、粤语拼音",
+        "openType": "iframe",
+        "url": "https://tool.lu/py5bconvert/"
+      },
+      {
+        "name": "中文简繁体转换",
+        "description": "中文简繁体转换",
+        "openType": "iframe",
+        "url": "https://tool.lu/zhconvert/"
+      },
+      {
+        "name": "ascii table生成",
+        "description": "markdown table生成",
+        "openType": "iframe",
+        "url": "https://tool.lu/tables/"
+      },
+      {
+        "name": "谐音梗",
+        "description": "文案灵感",
+        "openType": "iframe",
+        "url": "https://tool.lu/homophony/"
+      },
+      {
+        "name": "数字转大写",
+        "description": "数字转大写",
+        "openType": "iframe",
+        "url": "https://tool.lu/daxie/"
+      },
+      {
+        "name": "ascii画",
+        "description": "ascii画，代码注释制作",
+        "openType": "iframe",
+        "url": "https://tool.lu/asciipainting/"
+      },
+      {
+        "name": "字数统计",
+        "description": "统计文本的字数,替换全角标点,康熙字根替换",
+        "openType": "iframe",
+        "url": "https://tool.lu/wordcount/"
+      },
+      {
+        "name": "对比归并",
+        "description": "文本对比",
+        "openType": "iframe",
+        "url": "https://tool.lu/diff/"
+      },
+      {
+        "name": "摩斯电码",
+        "description": "摩斯电码编码解码",
+        "openType": "iframe",
+        "url": "https://tool.lu/morse/"
+      },
+      {
+        "name": "中文拆字",
+        "description": "中文拆字,偏旁,部首,字根",
+        "openType": "iframe",
+        "url": "https://tool.lu/zhcomponent/"
+      },
+      {
+        "name": "格子纸",
+        "description": "打印三角形、正方形、六边形、点状格子",
+        "openType": "iframe",
+        "url": "https://tool.lu/gridpaper/"
       }
     ]
   },
@@ -709,6 +931,36 @@
         "description": " 图片转doc主要功能：这款产品是一款神奇的图片转换为Word文档软件，可以将各种类型的图片(包括高清图片、PNG图片、JPG图片等)转换为Word文档。它提供了多种转换模式，如AI助手、人工录入、复制粘贴等，让用户轻松地将图片转换为Word文档。特点和优势：该产品采用了先进的技术和个性化的外观设计，使得图片转换更加快捷、方便、灵活。同时，它还提供了丰富的效果和素材，满足用户的各种需求。 ",
         "openType": "iframe",
         "url": "https://tool.browser.qq.com/img_2_word.html"
+      },
+      {
+        "name": "pdf合并",
+        "description": "将多个pdf文件合并成一个",
+        "openType": "iframe",
+        "url": "https://tool.lu/pdfmerger/"
+      },
+      {
+        "name": "pdf调整",
+        "description": "pdf页面删除、旋转、顺序调整",
+        "openType": "iframe",
+        "url": "https://tool.lu/pdfadjuster/"
+      },
+      {
+        "name": "pdf加页码",
+        "description": "为pdf添加页码",
+        "openType": "iframe",
+        "url": "https://tool.lu/pdfpagenum/"
+      },
+      {
+        "name": "pdf分割",
+        "description": "拆分pdf，按照页码切分pdf",
+        "openType": "iframe",
+        "url": "https://tool.lu/pdfsplitter/"
+      },
+      {
+        "name": "字幕格式转换",
+        "description": "转换字幕格式srt、ass、ssa、vtt、ttml、stl、ts",
+        "openType": "iframe",
+        "url": "https://tool.lu/subtitleconverter/"
       }
     ]
   },
@@ -816,11 +1068,250 @@
         "description": " UUID生成工具是一款免费的工具，可以帮助用户用自己的18位身份证号码(后三位) 生成独一无二的标识符。这款工具采用了最先进的技术，提供了一种高效且安全的解决方案，可以将用户的身份证号码转换为独特的标识符。UUID生成工具是一款安全可靠、灵活高效的身份证号码转换工具，可以帮助用户快速方便地生成自己独特的标识符，用于个人隐私和认证的目的。 ",
         "openType": "iframe",
         "url": "https://tool.browser.qq.com/uuid.html"
+      },
+      {
+        "name": "代码反混淆",
+        "description": "反混淆 java, js, php 等各种编程语言代码",
+        "openType": "iframe",
+        "url": "https://tool.lu/deobfuscation/"
+      },
+      {
+        "name": "javascript工具",
+        "description": "在线js美化、解压缩、混淆",
+        "openType": "iframe",
+        "url": "https://tool.lu/js/"
+      },
+      {
+        "name": "css工具",
+        "description": "在线css美化、格式化、压缩",
+        "openType": "iframe",
+        "url": "https://tool.lu/css/"
+      },
+      {
+        "name": "php工具",
+        "description": "在线php美化、格式化、解密",
+        "openType": "iframe",
+        "url": "https://tool.lu/php/"
+      },
+      {
+        "name": "html工具",
+        "description": "在线html美化、格式化、压缩",
+        "openType": "iframe",
+        "url": "https://tool.lu/html/"
+      },
+      {
+        "name": "正则测试工具",
+        "description": "正则表达式测试工具，还可以生成代码哦",
+        "openType": "iframe",
+        "url": "https://tool.lu/regex/"
+      },
+      {
+        "name": "sql工具",
+        "description": "sql在线美化，格式化，压缩",
+        "openType": "iframe",
+        "url": "https://tool.lu/sql/"
+      },
+      {
+        "name": "json工具",
+        "description": "在线编辑json，语法检查，转php,go类",
+        "openType": "iframe",
+        "url": "https://tool.lu/json/"
+      },
+      {
+        "name": "xml工具",
+        "description": "xml格式化、压缩",
+        "openType": "iframe",
+        "url": "https://tool.lu/xml/"
+      },
+      {
+        "name": "python工具",
+        "description": "pyc文件反编译,python美化、格式化",
+        "openType": "iframe",
+        "url": "https://tool.lu/pyc/"
+      },
+      {
+        "name": "crontab时间计算",
+        "description": "cron表达式执行时间计算",
+        "openType": "iframe",
+        "url": "https://tool.lu/crontab/"
+      },
+      {
+        "name": "进制转换",
+        "description": "常用进制转换工具",
+        "openType": "iframe",
+        "url": "https://tool.lu/hexconvert/"
+      },
+      {
+        "name": "在线运行代码",
+        "description": "在线运行php,c,c++,go,python,java,groovy代码",
+        "openType": "iframe",
+        "url": "https://tool.lu/coderunner/"
+      },
+      {
+        "name": "useragent分析",
+        "description": "分析ua",
+        "openType": "iframe",
+        "url": "https://tool.lu/useragent/"
+      },
+      {
+        "name": "时间戳转换",
+        "description": "在线时间戳转换",
+        "openType": "iframe",
+        "url": "https://tool.lu/timestamp/"
+      },
+      {
+        "name": "java在线工具",
+        "description": "java代码在线美化",
+        "openType": "iframe",
+        "url": "https://tool.lu/java/"
+      },
+      {
+        "name": "字体",
+        "description": "css中文字体unicode，编程字体",
+        "openType": "iframe",
+        "url": "https://tool.lu/fontfamily/"
+      },
+      {
+        "name": "代码着色",
+        "description": "代码着色，可直接拷贝进ppt",
+        "openType": "iframe",
+        "url": "https://tool.lu/highlight/"
+      },
+      {
+        "name": "htpasswd在线生成",
+        "description": "htpasswd在线生成",
+        "openType": "iframe",
+        "url": "https://tool.lu/htpasswd/"
+      },
+      {
+        "name": "Html特殊字符表",
+        "description": "Html特殊字符表",
+        "openType": "iframe",
+        "url": "https://tool.lu/htmlentity/"
+      },
+      {
+        "name": "包管理",
+        "description": "pip,composer,gem,npm,maven国内源",
+        "openType": "iframe",
+        "url": "https://tool.lu/pkg/"
+      },
+      {
+        "name": "http状态码",
+        "description": "http code",
+        "openType": "iframe",
+        "url": "https://tool.lu/httpcode/"
+      },
+      {
+        "name": "查看网页源码",
+        "description": "iPad查看网页源码",
+        "openType": "iframe",
+        "url": "https://tool.lu/viewsource/"
+      },
+      {
+        "name": "curl命令转代码",
+        "description": "curl转php,python,go,dart,javascript",
+        "openType": "iframe",
+        "url": "https://tool.lu/curl/"
+      },
+      {
+        "name": "yaml工具",
+        "description": "yaml转json",
+        "openType": "iframe",
+        "url": "https://tool.lu/yaml/"
+      },
+      {
+        "name": "csr证书生成",
+        "description": "csr证书生成",
+        "openType": "iframe",
+        "url": "https://tool.lu/csr/"
+      },
+      {
+        "name": "crx下载",
+        "description": "chrome扩展crx下载、转zip",
+        "openType": "iframe",
+        "url": "https://tool.lu/crx/"
+      },
+      {
+        "name": "随机字符串生成",
+        "description": "密码生成器、随机字符串生成",
+        "openType": "iframe",
+        "url": "https://tool.lu/strrandom/"
+      },
+      {
+        "name": "网页头信息查看",
+        "description": "查看网页头信息",
+        "openType": "iframe",
+        "url": "https://tool.lu/head/"
+      },
+      {
+        "name": "Shell工具",
+        "description": "Shell美化、格式化、压缩",
+        "openType": "iframe",
+        "url": "https://tool.lu/shell/"
+      },
+      {
+        "name": "Linux命令",
+        "description": "Linux命令查询",
+        "openType": "iframe",
+        "url": "https://tool.lu/command/"
+      },
+      {
+        "name": "MagicBytes",
+        "description": "文件头字节",
+        "openType": "iframe",
+        "url": "https://tool.lu/magicbytes/"
+      },
+      {
+        "name": "Shield",
+        "description": "shield badge",
+        "openType": "iframe",
+        "url": "https://tool.lu/shield/"
+      },
+      {
+        "name": "颜色工具",
+        "description": "颜色空间转换、常用色彩",
+        "openType": "iframe",
+        "url": "https://tool.lu/color/"
       }
     ]
   },
   {
-    "name": "视频",
+    "name": "运维工具",
+    "list": [
+      {
+        "name": "dns查询",
+        "description": "mx,a,txt域名dns查询",
+        "openType": "iframe",
+        "url": "https://tool.lu/dns/"
+      },
+      {
+        "name": "htaccess转nginx",
+        "description": "Apache rewrite转nginx",
+        "openType": "iframe",
+        "url": "https://tool.lu/htaccess2nginx/"
+      },
+      {
+        "name": "whois查询",
+        "description": "whois查询",
+        "openType": "iframe",
+        "url": "https://tool.lu/whois/"
+      },
+      {
+        "name": "顶级域名后缀",
+        "description": "顶级域名后缀",
+        "openType": "iframe",
+        "url": "https://tool.lu/tld/"
+      },
+      {
+        "name": "整数分区计算工具",
+        "description": "硬盘整数分区计算",
+        "openType": "iframe",
+        "url": "https://tool.lu/partition/"
+      }
+    ]
+  },
+  {
+    "name": "音视频",
     "list": [
       {
         "name": " 视频转gif ",
@@ -833,6 +1324,202 @@
         "description": " 视频声音提取工具是一款免费的音视频编辑工具，可以轻松地捕获、处理多种类型的视频，快速获取视频原音，节省大量时间 ",
         "openType": "iframe",
         "url": "https://tool.browser.qq.com/audio_extractor.html"
+      },
+      {
+        "name": "音频剪辑",
+        "description": "剪辑音频",
+        "openType": "iframe",
+        "url": "https://tool.lu/audiocutter/"
+      },
+      {
+        "name": "视频下载地址",
+        "description": "解析视频下载地址",
+        "openType": "iframe",
+        "url": "https://tool.lu/videoparser/"
+      }
+    ]
+  },
+  {
+    "name": "学术",
+    "list": [
+      {
+        "name": "字帖生成器",
+        "description": "看拼音写词语、田字格拼音、田字格字帖",
+        "openType": "iframe",
+        "url": "https://tool.lu/copybook/"
+      },
+      {
+        "name": "化学元素周期表",
+        "description": "化学元素周期表",
+        "openType": "iframe",
+        "url": "https://tool.lu/periodic/"
+      },
+      {
+        "name": "分数计算器",
+        "description": "约分、最小公倍数、最大公约数计算",
+        "openType": "iframe",
+        "url": "https://tool.lu/fraction/"
+      },
+      {
+        "name": "计算器",
+        "description": "文本计算器",
+        "openType": "iframe",
+        "url": "https://tool.lu/calc/"
+      },
+      {
+        "name": "歇后语",
+        "description": "歇后语大全",
+        "openType": "iframe",
+        "url": "https://tool.lu/xiehouyu/"
+      },
+      {
+        "name": "成语词典",
+        "description": "成语大全、成语接龙",
+        "openType": "iframe",
+        "url": "https://tool.lu/idiom/"
+      },
+      {
+        "name": "各国首都列表",
+        "description": "各个国家的首都",
+        "openType": "iframe",
+        "url": "https://tool.lu/capital/"
+      },
+      {
+        "name": "历史朝代表",
+        "description": "历史朝代表",
+        "openType": "iframe",
+        "url": "https://tool.lu/dynasty/"
+      },
+      {
+        "name": "单位转换",
+        "description": "长度，重量，体积，温度单位转换",
+        "openType": "iframe",
+        "url": "https://tool.lu/unitconverter/"
+      },
+      {
+        "name": "高校查询",
+        "description": "985,211,双一流高校列表",
+        "openType": "iframe",
+        "url": "https://tool.lu/school/"
+      }
+    ]
+  },
+  {
+    "name": "查询与计算",
+    "list": [
+      {
+        "name": "取名大师",
+        "description": "根据三才五格、生辰八字取名",
+        "openType": "iframe",
+        "url": "https://tool.lu/naming/"
+      },
+      {
+        "name": "日期时间计算器",
+        "description": "计算日期相差天数，推算日期",
+        "openType": "iframe",
+        "url": "https://tool.lu/datecalc/"
+      },
+      {
+        "name": "IP地址查询",
+        "description": "IP归属地查询",
+        "openType": "iframe",
+        "url": "https://tool.lu/ip/"
+      },
+      {
+        "name": "历史上的今天",
+        "description": "历史上的今天",
+        "openType": "iframe",
+        "url": "https://tool.lu/todayonhistory/"
+      },
+      {
+        "name": "手机号归属地",
+        "description": "手机号码归属地查询",
+        "openType": "iframe",
+        "url": "https://tool.lu/mobile/"
+      },
+      {
+        "name": "邮编区号查询",
+        "description": "邮编，区号查询",
+        "openType": "iframe",
+        "url": "https://tool.lu/zipcode/"
+      },
+      {
+        "name": "汇率计算",
+        "description": "汇率计算器",
+        "openType": "iframe",
+        "url": "https://tool.lu/forex/"
+      },
+      {
+        "name": "今天吃什么",
+        "description": "今天吃什么呢，随机一个看看",
+        "openType": "iframe",
+        "url": "https://tool.lu/eat/"
+      },
+      {
+        "name": "血型遗传规律表",
+        "description": "血型遗传规律表",
+        "openType": "iframe",
+        "url": "https://tool.lu/blood/"
+      },
+      {
+        "name": "车牌查询",
+        "description": "全国各地车牌查询",
+        "openType": "iframe",
+        "url": "https://tool.lu/licenseplate/"
+      },
+      {
+        "name": "亲戚称谓计算器",
+        "description": "亲戚称呼",
+        "openType": "iframe",
+        "url": "https://tool.lu/relationship/"
+      },
+      {
+        "name": "标准纸箱尺寸计算",
+        "description": "推荐纸箱尺寸",
+        "openType": "iframe",
+        "url": "https://tool.lu/boxsize/"
+      },
+      {
+        "name": "纸张尺寸查询",
+        "description": "A0-A10、B0-B10、C0-C10纸张尺寸查询",
+        "openType": "iframe",
+        "url": "https://tool.lu/papersize/"
+      },
+      {
+        "name": "生肖查询",
+        "description": "根据年份查询生肖，根据生肖猜测年份",
+        "openType": "iframe",
+        "url": "https://tool.lu/zodiac/"
+      },
+      {
+        "name": "cidr计算器",
+        "description": "计算子网掩码",
+        "openType": "iframe",
+        "url": "https://tool.lu/cidr/"
+      },
+      {
+        "name": "键盘符号英文",
+        "description": "键盘符号的英文表达",
+        "openType": "iframe",
+        "url": "https://tool.lu/symbol/"
+      },
+      {
+        "name": "尺码对照表",
+        "description": "衣服、裤子、袜子尺码查询",
+        "openType": "iframe",
+        "url": "https://tool.lu/size/"
+      },
+      {
+        "name": "计算机词汇发音",
+        "description": "各种计算机词汇的发音",
+        "openType": "iframe",
+        "url": "https://tool.lu/pronounce/"
+      },
+      {
+        "name": "放假安排",
+        "description": "法定节假日放假安排",
+        "openType": "iframe",
+        "url": "https://tool.lu/holiday/"
       }
     ]
   },
@@ -886,6 +1573,41 @@
         "description": " PNG图片转PDF是一款在线工具，可以将.png格式的图像转换为.df格式。用户可以使用此功能将照片存储在计算机上，以便以后方便地阅读或打印 ",
         "openType": "iframe",
         "url": "https://tool.browser.qq.com/img_2_pdf_convert.html"
+      }
+    ]
+  },
+  {
+    "name": "其他工具",
+    "list": [
+      {
+        "name": "手持弹幕",
+        "description": "手持滚动弹幕",
+        "openType": "iframe",
+        "url": "https://tool.lu/danmu/"
+      },
+      {
+        "name": "下载链接转换",
+        "description": "在线下载链接转换，迅雷、旋风、快车",
+        "openType": "iframe",
+        "url": "https://tool.lu/urlconvert/"
+      },
+      {
+        "name": "种子文件分析",
+        "description": "torrent文件分析,转magnet",
+        "openType": "iframe",
+        "url": "https://tool.lu/torrent/"
+      },
+      {
+        "name": "文件hash计算",
+        "description": "计算文件的md5,sha1,sha256等",
+        "openType": "iframe",
+        "url": "https://tool.lu/filehash/"
+      },
+      {
+        "name": "地图坐标系转换",
+        "description": "高德、腾讯、百度地图坐标系转换",
+        "openType": "iframe",
+        "url": "https://tool.lu/coordinate/"
       }
     ]
   }
