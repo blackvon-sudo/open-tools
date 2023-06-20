@@ -760,6 +760,12 @@
         "description": " 取名字工具是一款免费的工具，可以用来给自己的朋友和家人取名字，用户可以选择自己想要的姓名组合，满足自己的特定需求。取名字工具是一款操作简单、功能丰富、个性化的名字选取工具，可以满足用户的不同需求 ",
         "openType": "iframe",
         "url": "https://tool.browser.qq.com/naming.html"
+      },
+      {
+        "name": " 笔趣阁小说",
+        "description": "笔趣阁小说"
+        "openType": "iframe",
+        "url": "https://www.ibiqu.org"
       }
     ]
   },
