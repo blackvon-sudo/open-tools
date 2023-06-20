@@ -762,10 +762,10 @@
         "url": "https://tool.browser.qq.com/naming.html"
       },
       {
-        "name": " 笔趣阁小说",
-        "description": "笔趣阁小说",
+        "name": " 全本小说",
+        "description": "全本小说",
         "openType": "iframe",
-        "url": "http://www.ibiqu.org"
+        "url": "https://www.quanben.la"
       }
     ]
   },
