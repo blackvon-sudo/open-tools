@@ -1,41 +1,6 @@
 [
   {
-    "name": "视频",
-    "list": [
-      {
-        "name": "blackvonTV",
-        "description": "免费观看电影电视剧动漫",
-        "openType": "new-tab",
-        "url": "https://tv.blackvon.cn"
-      },
-      {
-        "name": "云播TV",
-        "description": "一个单纯不做作的电影站",
-        "openType": "new-tab",
-        "url": "https://www.yunbtv.net/"
-      },
-      {
-        "name": "6v电影网",
-        "description": "高清电影电视剧动漫下载网站",
-        "openType": "new-tab",
-        "url": "http://www.6vhao.tv/"
-      },
-      {
-        "name": "樱花动漫",
-        "description": "看动漫怎么能少了它呢",
-        "openType": "new-tab",
-        "url": "http://www.iyinghua.io/"
-      },
-      {
-        "name": "Twitch",
-        "description": "海外直播平台",
-        "openType": "new-tab",
-        "url": "https://www.twitch.tv/"
-      }
-    ]
-  },
-  {
-    "name": "博客",
+    "name": "作者开发",
     "list": [
       {
         "name": "blackvonCode",
@@ -44,10 +9,41 @@
         "url": "https://www.blackvon.cn"
       },
       {
-        "name": "阮一峰的网络日志",
-        "description": "这里记录每周值得分享的科技内容",
+        "name": "blackvonTV",
+        "description": "免费观看电影电视剧动漫",
         "openType": "new-tab",
-        "url": "https://www.ruanyifeng.com/blog/"
+        "url": "https://tv.blackvon.cn"
+      },
+      {
+        "name": "OpenAiChat",
+        "description": "ChatGPT3.5的AI问答平台(已停止维护，问答失效)",
+        "openType": "new-tab",
+        "url": "https://ai.blackvon.cn/#/"
+      },
+      {
+        "name": "GitHub代理",
+        "description": "使用开源于项目：hunshcn/gh-proxy实现的GitHub代理网站，丝滑克隆GitHub代码",
+        "openType": "new-tab",
+        "url": "https://gh.ezctrl.cn/"
+      },
+      {
+        "name": "DBD黎明杀机随机技能",
+        "description": "黎明杀机游戏随机技能网站、《幸运星杯》比赛官网平台！",
+        "openType": "new-tab",
+        "url": "https://www.dbdgame.cn/#/"
+      },
+      {
+        "name": "浪漫世界 直播平台",
+        "description": "个人搭建的黎明杀机游戏专用直播平台",
+        "openType": "new-tab",
+        "url": "http://live.dbdgame.cn/"
+      },
+      {
+        "name": "兔言兔语",
+        "description": "520乖乖兔的专属语录，须时时刻刻记录，常常品读！",
+        "openType": "router",
+        "randType":"text",
+        "router": "tutu"
       }
     ]
   },
@@ -258,6 +254,52 @@
         "param": {
           "type": "sj"
         }
+      }
+    ]
+  },
+  {
+    "name": "视频",
+    "list": [
+      {
+        "name": "blackvonTV",
+        "description": "免费观看电影电视剧动漫",
+        "openType": "new-tab",
+        "url": "https://tv.blackvon.cn"
+      },
+      {
+        "name": "云播TV",
+        "description": "一个单纯不做作的电影站",
+        "openType": "new-tab",
+        "url": "https://www.yunbtv.net/"
+      },
+      {
+        "name": "6v电影网",
+        "description": "高清电影电视剧动漫下载网站",
+        "openType": "new-tab",
+        "url": "http://www.6vhao.tv/"
+      },
+      {
+        "name": "樱花动漫",
+        "description": "看动漫怎么能少了它呢",
+        "openType": "new-tab",
+        "url": "http://www.iyinghua.io/"
+      },
+      {
+        "name": "Twitch",
+        "description": "海外直播平台",
+        "openType": "new-tab",
+        "url": "https://www.twitch.tv/"
+      }
+    ]
+  },
+  {
+    "name": "优秀博客",
+    "list": [
+      {
+        "name": "阮一峰的网络日志",
+        "description": "这里记录每周值得分享的科技内容",
+        "openType": "new-tab",
+        "url": "https://www.ruanyifeng.com/blog/"
       }
     ]
   },

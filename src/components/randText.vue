@@ -5,21 +5,23 @@
     </div>
     <div v-if="text || text_En">
       <div class="text">
-        <div v-if="text_En.length>0">
-          <el-text class="mx-1" @click="copyToClipboard(text_En)">{{text_En}}</el-text>
+        <div v-if="text_En.length > 0">
+          <el-text class="mx-1" @click="copyToClipboard(text_En)">{{ text_En }}</el-text>
         </div>
-        <div v-if="text.length>0">
-          <el-text class="mx-1" @click="copyToClipboard(text)">{{text}}</el-text>
+        <div v-if="text.length > 0">
+          <el-text class="mx-1" @click="copyToClipboard(text)">{{ text }}</el-text>
         </div>
       </div>
       <div class="btn-bottom">
-        <el-button type="primary" @click="getText">再来一句</el-button>
+        <el-button type="primary" @click="getOne">再来一句</el-button>
       </div>
     </div>
   </div>
 </template>
 <script>
 import { ElMessage } from "element-plus";
+import tt from "@/static/tutu.json";
+
 export default {
   name: "rand-text",
   props: {
@@ -31,12 +33,21 @@ export default {
       imgUrl: "",
       text: "",
       text_En: "",
+      tutuList: tt,
     };
   },
   mounted() {
-    this.getText();
+    this.getOne();
   },
   methods: {
+    getOne() {
+      if (this.model.router == "tutu") {
+        this.randTt();
+      }
+      else {
+        this.getText();
+      }
+    },
     getText() {
       this.loading = true;
       this.$api
@@ -66,6 +77,17 @@ export default {
       this.text_En = res.data.en;
       this.imgUrl = res.data.pic;
     },
+    randTt() {
+      // 检查list是否为空
+      if (this.tutuList.length === 0) {
+        ElMessage.error("暂无语录~");
+        return;
+      }
+      // 计算随机索引
+      const index = Math.floor(Math.random() * this.tutuList.length);
+      // 获取随机元素
+      this.text = this.tutuList[index];
+    },
     copyToClipboard(text) {
       // 创建一个临时的 textarea 元素
       const textarea = document.createElement("textarea");
@@ -90,11 +112,13 @@ export default {
   margin-top: 10px;
   text-align: center;
 }
+
 .text {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 40px;
 }
+
 .text .el-text {
   cursor: pointer;
 }
