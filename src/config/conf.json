@@ -27,7 +27,25 @@
         "url": "https://gh.ezctrl.cn/"
       },
       {
-        "name": "DBD黎明杀机随机技能",
+        "name": "BIndex",
+        "description": "一个网页端命令行工具，来用命令行打开网页、搜索内容吧，没什么卵用，就是装逼",
+        "openType": "new-tab",
+        "url": "https://s.blackvon.cn/"
+      },
+      {
+        "name": "Book",
+        "description": "俺的看书网站，不多，就一本三体，那我也没时间看！看书？是工作干完了？还是游戏不快乐了？",
+        "openType": "new-tab",
+        "url": "https://book.blackvon.cn/"
+      },
+      {
+        "name": "中国大事记",
+        "description": "一个记录中国改革开放以来各种大事的网站，网站搭起来了，却没时间写内容",
+        "openType": "new-tab",
+        "url": "https://cn.blackvon.cn/"
+      },
+      {
+        "name": "黎明杀机 随机技能",
         "description": "黎明杀机游戏随机技能网站、《幸运星杯》比赛官网平台！",
         "openType": "new-tab",
         "url": "https://www.dbdgame.cn/#/"
