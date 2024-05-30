@@ -34,6 +34,7 @@ export default {
       text: "",
       text_En: "",
       tutuList: tt,
+      tutuIndex: 0
     };
   },
   mounted() {
@@ -83,10 +84,17 @@ export default {
         ElMessage.error("暂无语录~");
         return;
       }
-      // 计算随机索引
-      const index = Math.floor(Math.random() * this.tutuList.length);
+      this.loading = true;
+      let index = 0;
+      do {
+        // 计算随机索引
+        index = Math.floor(Math.random() * this.tutuList.length);
+      }
+      while (this.tutuIndex == index)
       // 获取随机元素
       this.text = this.tutuList[index];
+      this.tutuIndex = index;
+      this.loading = false;
     },
     copyToClipboard(text) {
       // 创建一个临时的 textarea 元素
