@@ -24,7 +24,7 @@
         "name": "樱花动漫",
         "description": "看动漫怎么能少了它呢",
         "openType": "new-tab",
-        "url": "http://www.yinghuacd.com/"
+        "url": "http://www.iyinghua.io/"
       },
       {
         "name": "Twitch",
@@ -59,8 +59,8 @@
         "description": "随机获取各种风景图片",
         "openType": "router",
         "randType":"image",
-        "router": "image-0",
-        "url": "https://api.vvhan.com/api/view",
+        "router": "pic",
+        "url": "https://api.vvhan.com/api/wallpaper/views",
         "type": "GET",
         "param": {
           "type": "json"
@@ -71,8 +71,8 @@
         "description": "随机获取各种动漫图片",
         "openType": "router",
         "randType":"image",
-        "router": "image-1",
-        "url": "https://api.vvhan.com/api/acgimg",
+        "router": "pic",
+        "url": "https://api.vvhan.com/api/wallpaper/acg",
         "type": "GET",
         "param": {
           "type": "json"
@@ -83,8 +83,8 @@
         "description": "随机获取各种竖版美女图片",
         "openType": "router",
         "randType":"image",
-        "router": "image-2",
-        "url": "https://api.vvhan.com/api/mobil.girl",
+        "router": "pic",
+        "url": "https://api.vvhan.com/api/wallpaper/mobileGirl",
         "type": "GET",
         "param": {
           "type": "json"
@@ -95,20 +95,68 @@
         "description": "随机获取各种横板美女图片",
         "openType": "router",
         "randType":"image",
-        "router": "image-3",
-        "url": "https://api.vvhan.com/api/girl",
+        "router": "pic",
+        "url": "https://api.vvhan.com/api/wallpaper/pcGirl",
         "type": "GET",
         "param": {
           "type": "json"
         }
       },
       {
-        "name": "头像",
-        "description": "随机获取各种头像",
+        "name": "精选头像",
+        "description": "随机获取各种精选头像",
         "openType": "router",
         "randType":"image",
-        "router": "image-4",
-        "url": "https://api.vvhan.com/api/avatar",
+        "router": "pic",
+        "url": "https://api.vvhan.com/api/avatar/rand",
+        "type": "GET",
+        "param": {
+          "type": "json"
+        }
+      },
+      {
+        "name": "动漫头像",
+        "description": "随机获取各种动漫头像",
+        "openType": "router",
+        "randType":"image",
+        "router": "pic",
+        "url": "https://api.vvhan.com/api/avatar/dm",
+        "type": "GET",
+        "param": {
+          "type": "json"
+        }
+      },
+      {
+        "name": "男生头像",
+        "description": "随机获取各种男生头像",
+        "openType": "router",
+        "randType":"image",
+        "router": "pic",
+        "url": "https://api.vvhan.com/api/avatar/boy",
+        "type": "GET",
+        "param": {
+          "type": "json"
+        }
+      },
+      {
+        "name": "女生头像",
+        "description": "随机获取各种女生头像",
+        "openType": "router",
+        "randType":"image",
+        "router": "pic",
+        "url": "https://api.vvhan.com/api/avatar/girl",
+        "type": "GET",
+        "param": {
+          "type": "json"
+        }
+      },
+      {
+        "name": "小众头像",
+        "description": "随机获取各种小众头像",
+        "openType": "router",
+        "randType":"image",
+        "router": "pic",
+        "url": "https://api.vvhan.com/api/avatar/niche",
         "type": "GET",
         "param": {
           "type": "json"
@@ -119,7 +167,7 @@
         "description": "随机获取必应(Bing)壁纸",
         "openType": "router",
         "randType":"image",
-        "router": "image-5",
+        "router": "bing",
         "url": "https://api.vvhan.com/api/bing",
         "type": "GET",
         "param": {
@@ -128,12 +176,24 @@
         }
       },
       {
-        "name": "淘宝买家秀",
-        "description": "随机获取淘宝买家秀图片",
+        "name": "摸鱼人日历",
+        "description": "获取摸鱼人日历",
         "openType": "router",
         "randType":"image",
-        "router": "image-6",
-        "url": "https://api.vvhan.com/api/tao",
+        "router": "pic",
+        "url": "https://api.vvhan.com/api/moyu",
+        "type": "GET",
+        "param": {
+          "type": "json"
+        }
+      },
+      {
+        "name": "职场人日历",
+        "description": "职场人日历",
+        "openType": "router",
+        "randType":"image",
+        "router": "pic",
+        "url": "https://api.vvhan.com/api/zhichang",
         "type": "GET",
         "param": {
           "type": "json"
@@ -144,8 +204,8 @@
         "description": "随机获取一句喜欢的句子",
         "openType": "router",
         "randType":"text",
-        "router": "text-0",
-        "url": "https://api.vvhan.com/api/ian",
+        "router": "text",
+        "url": "https://api.vvhan.com/api/ian/rand",
         "type": "GET",
         "param": {
           "type": "json"
@@ -156,8 +216,8 @@
         "description": "随机获取一段笑话",
         "openType": "router",
         "randType":"text",
-        "router": "text-1",
-        "url": "https://api.vvhan.com/api/joke",
+        "router": "text",
+        "url": "https://api.vvhan.com/api/text/joke",
         "type": "GET",
         "param": {
           "type": "json"
@@ -168,8 +228,8 @@
         "description": "随机获取一句撩人的情话",
         "openType": "router",
         "randType":"text",
-        "router": "text-2",
-        "url": "https://api.vvhan.com/api/love",
+        "router": "text",
+        "url": "https://api.vvhan.com/api/text/love",
         "type": "GET",
         "param": {
           "type": "json"
@@ -180,8 +240,8 @@
         "description": "随机获取一句骚骚的骚话",
         "openType": "router",
         "randType":"text",
-        "router": "text-3",
-        "url": "https://api.vvhan.com/api/sao",
+        "router": "text",
+        "url": "https://api.vvhan.com/api/text/sexy",
         "type": "GET",
         "param": {
           "type": "json"
@@ -192,24 +252,11 @@
         "description": "随机获取一句励志的英文",
         "openType": "router",
         "randType":"text",
-        "router": "text-4",
-        "url": "https://api.vvhan.com/api/en",
+        "router": "eng",
+        "url": "https://api.vvhan.com/api/dailyEnglish",
         "type": "GET",
         "param": {
           "type": "sj"
-        }
-      },
-      {
-        "name": "60秒读懂世界",
-        "description": "获取今日世界发生的事情",
-        "openType": "router",
-        "randType":"text",
-        "router": "text-5",
-        "url": "https://api.vvhan.com/api/60s",
-        "type": "GET",
-        "param": {
-          "type": "json",
-          "rand": "sj"
         }
       }
     ]

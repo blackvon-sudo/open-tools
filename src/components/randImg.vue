@@ -1,13 +1,7 @@
 <template>
   <div v-loading="loading">
     <div class="image">
-      <el-image
-        :src="srcList[index]"
-        :zoom-rate="1.2"
-        :preview-src-list="srcList"
-        :initial-index="index"
-        fit="fill"
-      />
+      <el-image :src="srcList[index]" :zoom-rate="1.2" :preview-src-list="srcList" :initial-index="index" fit="fill" />
     </div>
     <div class="btn-bottom">
       <el-button type="primary" @click="getImage">再来一张</el-button>
@@ -37,19 +31,10 @@ export default {
       this.$api
         .request(this.model.type, this.model.url, this.model.param)
         .then((res) => {
-          if (
-            this.model.router == "image-0" ||
-            this.model.router == "image-1" ||
-            this.model.router == "image-2" ||
-            this.model.router == "image-3"
-          ) {
+          if (this.model.router == "pic") {
             this.randImg(res);
-          } else if (this.model.router == "image-4") {
-            this.randAvatar(res);
-          } else if (this.model.router == "image-5") {
+          } else if (this.model.router == "bing") {
             this.randBing(res);
-          } else if (this.model.router == "image-6") {
-            this.randTao(res);
           } else {
             ElMessage.error("请求错误");
           }
@@ -61,14 +46,11 @@ export default {
         });
     },
     randImg(res) {
+      console.log(res)
       if (res.success == true) {
-        this.srcList.push(res.imgurl);
-        this.index = this.srcList.length == 0 ? 0 : this.srcList.length - 1;
-      }
-    },
-    randAvatar(res) {
-      if (res.success == true) {
-        this.srcList.push(res.avatar);
+        console.log(res.url)
+        this.srcList.push(res.url);
+        console.log(this.srcList)
         this.index = this.srcList.length == 0 ? 0 : this.srcList.length - 1;
       }
     },
@@ -78,10 +60,6 @@ export default {
         this.index = this.srcList.length == 0 ? 0 : this.srcList.length - 1;
       }
     },
-    randTao(res) {
-      this.srcList.push(res.pic);
-      this.index = this.srcList.length == 0 ? 0 : this.srcList.length - 1;
-    },
   },
 };
 </script>
@@ -90,6 +68,7 @@ export default {
   margin-top: 10px;
   text-align: center;
 }
+
 .image {
   text-align: center;
 }

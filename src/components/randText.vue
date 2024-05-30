@@ -1,9 +1,9 @@
 <template>
   <div v-loading="loading">
-    <div v-if="model.router=='text-4' || model.router=='text-5'">
+    <div v-if="imgUrl">
       <el-image :src="imgUrl" fit="fill" />
     </div>
-    <div v-if="model.router!='text-5'">
+    <div v-if="text || text_En">
       <div class="text">
         <div v-if="text_En.length>0">
           <el-text class="mx-1" @click="copyToClipboard(text_En)">{{text_En}}</el-text>
@@ -43,19 +43,10 @@ export default {
         .request(this.model.type, this.model.url, this.model.param)
         .then((res) => {
           if (res.success) {
-            if (this.model.router == "text-0") {
-              this.randIan(res);
-            } else if (this.model.router == "text-1") {
-              this.randJoke(res);
-            } else if (
-              this.model.router == "text-2" ||
-              this.model.router == "text-3"
-            ) {
-              this.randLoveAndSao(res);
-            } else if (this.model.router == "text-4") {
+            if (this.model.router == "text") {
+              this.randText(res);
+            } else if (this.model.router == "eng") {
               this.randEn(res);
-            } else if (this.model.router == "text-5") {
-              this.rand60s(res);
             } else {
               ElMessage.error("请求错误");
             }
@@ -67,22 +58,13 @@ export default {
           this.loading = false;
         });
     },
-    randIan(res) {
-      this.text = res.data.vhan;
-    },
-    randJoke(res) {
-      this.text = res.joke;
-    },
-    randLoveAndSao(res) {
-      this.text = res.ishan;
+    randText(res) {
+      this.text = res.data.content;
     },
     randEn(res) {
       this.text = res.data.zh;
       this.text_En = res.data.en;
       this.imgUrl = res.data.pic;
-    },
-    rand60s(res) {
-      this.imgUrl = res.imgUrl;
     },
     copyToClipboard(text) {
       // 创建一个临时的 textarea 元素
