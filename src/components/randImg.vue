@@ -46,11 +46,8 @@ export default {
         });
     },
     randImg(res) {
-      console.log(res)
       if (res.success == true) {
-        console.log(res.url)
         this.srcList.push(res.url);
-        console.log(this.srcList)
         this.index = this.srcList.length == 0 ? 0 : this.srcList.length - 1;
       }
     },
