@@ -62,6 +62,14 @@
         "openType": "router",
         "randType":"text",
         "router": "tutu"
+      },
+      {
+        "name": "聚合热搜",
+        "description": "获取当前热搜榜，包括微博，知乎，抖音等多个榜单！",
+        "openType": "router",
+        "randType":"hot-list",
+        "url": "https://api.vvhan.com/api/hotlist/all",
+        "type": "GET"
       }
     ]
   },

@@ -64,6 +64,7 @@
   >
     <randImg v-if="model.randType=='image'" :model="model" />
     <randText v-if="model.randType=='text'" :model="model" />
+    <hotList v-if="model.randType=='hot-list'" :model="model" />
   </el-dialog>
   <el-dialog
     :width="iframe.dialogWidth"
@@ -83,6 +84,7 @@
 //import { ElMessage, ElMessageBox } from "element-plus";
 import randImg from "@/components/randImg";
 import randText from "@/components/randText";
+import hotList from "@/components/hotList";
 import { isMobile } from "@/utils/common";
 import conf from "@/config/conf.json";
 
@@ -91,6 +93,7 @@ export default {
   components: {
     randImg,
     randText,
+    hotList
   },
   data() {
     return {
@@ -101,7 +104,7 @@ export default {
       model: {},
       router: {
         dialogShow: false,
-        dialogWidth: isMobile() ? "90%" : "500px",
+        dialogWidth: isMobile() ? "90%" : "800px",
         isFullScreen: isMobile() ? true : false,
       },
       iframe: {
