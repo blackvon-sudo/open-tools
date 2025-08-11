@@ -280,6 +280,18 @@
         "param": {
           "type": "sj"
         }
+      },
+      {
+        "name": "小姐姐视频",
+        "description": "随机获取各种小姐姐视频",
+        "openType": "router",
+        "randType":"video",
+        "router": "video",
+        "url": "https://api.kuleu.com/api/MP4_xiaojiejie",
+        "type": "GET",
+        "param": {
+          "type": "json"
+        }
       }
     ]
   },
